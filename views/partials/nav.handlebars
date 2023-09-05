@@ -1,0 +1,19 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/public/navigation.css">
+</head>
+<div class="nav">
+    <h1>Shiva's Blog</h1>
+    <div id="make">
+        <a class="const" href="/create"> Create a post </a>
+        <a class="const" href="/"> Home </a>
+    </div>
+    <br>
+    {{#if tags}}
+    <div class="tags">
+    	{{#each tags}}
+	        <a href="/tag/{{this}}" class="tag">{{this}}</a>
+        {{/each}}
+    </div>
+    {{/if}}
+</div>
+<br><hr>

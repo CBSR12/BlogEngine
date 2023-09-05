@@ -1,0 +1,8 @@
+.const{
+    padding: 8px;
+    margin-right: 8px;
+    background-color: blue;
+    display: inline;
+    font-weight: bold;
+    color: white;
+}
